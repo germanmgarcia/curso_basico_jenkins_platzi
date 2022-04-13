@@ -1,0 +1,14 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.model.UserIdMapper>
+  <version>1</version>
+  <idToDirectoryNameMap class="concurrent-hash-map">
+    <entry>
+      <string>platzi</string>
+      <string>platzi_16514509826058764075</string>
+    </entry>
+    <entry>
+      <string>germangarcia</string>
+      <string>germangarcia_4101690554024315082</string>
+    </entry>
+  </idToDirectoryNameMap>
+</hudson.model.UserIdMapper>

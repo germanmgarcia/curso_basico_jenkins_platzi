@@ -1,0 +1,51 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.ParametersAction>
+      <safeParameters class="sorted-set"/>
+      <parameters>
+        <hudson.model.StringParameterValue>
+          <name>NAME</name>
+          <value>german2</value>
+        </hudson.model.StringParameterValue>
+      </parameters>
+      <parameterDefinitionNames>
+        <string>NAME</string>
+      </parameterDefinitionNames>
+    </hudson.model.ParametersAction>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UserIdCause>
+            <userId>germangarcia</userId>
+          </hudson.model.Cause_-UserIdCause>
+          <int>1</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+    <hudson.plugins.parameterizedtrigger.BuildInfoExporterAction plugin="parameterized-trigger@2.44">
+      <builds>
+        <hudson.plugins.parameterizedtrigger.BuildInfoExporterAction_-BuildReference>
+          <projectName>parameterized</projectName>
+          <buildNumber>0</buildNumber>
+          <buildResult>NOT_BUILT</buildResult>
+        </hudson.plugins.parameterizedtrigger.BuildInfoExporterAction_-BuildReference>
+      </builds>
+      <lastReference reference="../builds/hudson.plugins.parameterizedtrigger.BuildInfoExporterAction_-BuildReference"/>
+    </hudson.plugins.parameterizedtrigger.BuildInfoExporterAction>
+  </actions>
+  <queueId>8</queueId>
+  <timestamp>1649468556323</timestamp>
+  <startTime>1649468556356</startTime>
+  <result>SUCCESS</result>
+  <duration>165</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/jenkins_home/workspace/hello_platzi</workspace>
+  <hudsonVersion>2.342</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

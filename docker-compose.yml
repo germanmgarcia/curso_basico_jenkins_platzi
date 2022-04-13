@@ -1,0 +1,14 @@
+version: "3.3"
+
+services:
+  jenkins:
+    build:
+      context: "./conf/jenkins"
+    container_name: jenkins
+    restart: always
+    tty: true
+    ports:
+      - 8080:8080
+      - 50000:50000
+    volumes:
+      - ./conf/jenkins/jenkins_home:/var/jenkins_home

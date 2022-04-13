@@ -1,0 +1,14 @@
+Started by user [8mha:////4OV7w2sFyJcqTSy8yw9sOwejo7d3BGpUiSwhhu+0DbSiAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAxeoBn6pcWpRfrpqUW5QGMSi5IzEwEHk0MQxwAAAA==[0mGerman Garcia
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/hello_platzi
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+[hello_platzi] $ /bin/sh -xe /tmp/jenkins10750399736249127955.sh
++ echo Hello Platzi german2
+Hello Platzi german2
++ node -v
+v17.9.0
+Triggering projects: [8mha:////4P+cUpQ/7/9NfY5mOI9tk8IXZozxmPQpxjtmBuIQflBmAAAAlB+LCAAAAAAAAP9b85aBtbiIQSajNKU4P08vOT+vOD8nVc+jsiC1KCczL9svvyTVzHb1RttJBUeZGJg8GdhyUvPSSzJ8GJhLi3JKGIR8shLLEvVzEvPS9YNLijLz0q0rihik0IxzhtAgwxgggJGJgaGiAMjgLWEQ1s/KT9IvSCxKzE0tSS3KrEpN0QcA9Gilq5gAAAA=[0mparameterized
+Triggering a new build of [8mha:////4IaIiY1Asbbb8ucpBpmoYxVK7HxvbG3YIyVlv3aZrw8GAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JP3yxJLkjNSiYn0A/3ac4sMAAAA=[0mwatchers
+Finished: SUCCESS
