@@ -1,0 +1,57 @@
+Started by user [8mha:////4OV7w2sFyJcqTSy8yw9sOwejo7d3BGpUiSwhhu+0DbSiAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAxeoBn6pcWpRfrpqUW5QGMSi5IzEwEHk0MQxwAAAA==[0mGerman Garcia
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/test-sum-node
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/test-sum-node/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/germanmgarcia/curso_basico_jenkins_platzi.git # timeout=10
+Fetching upstream changes from https://github.com/germanmgarcia/curso_basico_jenkins_platzi.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/germanmgarcia/curso_basico_jenkins_platzi.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+Seen branch in repository origin/main
+Seen 1 remote branch
+ > git show-ref --tags -d # timeout=10
+Checking out Revision c4dbe5ca38440471f272db09fd4a5fe8d86791ca (origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c4dbe5ca38440471f272db09fd4a5fe8d86791ca # timeout=10
+Commit message: "first commit"
+ > git rev-list --no-walk c4dbe5ca38440471f272db09fd4a5fe8d86791ca # timeout=10
+[test-sum-node] $ /bin/sh -xe /tmp/jenkins10931484809364564828.sh
++ cd jenkins-tests
++ npm install
+npm WARN old lockfile 
+npm WARN old lockfile The package-lock.json file was created with an old version of npm,
+npm WARN old lockfile so supplemental metadata must be fetched from the registry.
+npm WARN old lockfile 
+npm WARN old lockfile This is a one-time fix-up, please be patient...
+npm WARN old lockfile 
+npm WARN deprecated mkdirp@0.5.1: Legacy versions of mkdirp are no longer supported. Please update to mkdirp 1.x. (Note that the API surface has changed to use Promises in 1.x.)
+
+added 24 packages, and audited 25 packages in 1s
+
+3 critical severity vulnerabilities
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[test-sum-node] $ /bin/sh -xe /tmp/jenkins453916711700098990.sh
++ cd jenkins-tests
++ npm test
+
+> jenkins-tests@1.0.1 test
+> mocha
+
+
+
+  Sum
+    ✓ should handle positive numbers
+    ✓ should handle negative numbers
+    ✓ should handle decimals
+
+
+  3 passing (3ms)
+
+Finished: SUCCESS

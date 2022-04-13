@@ -1,0 +1,28 @@
+Started by user [8mha:////4OV7w2sFyJcqTSy8yw9sOwejo7d3BGpUiSwhhu+0DbSiAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAxeoBn6pcWpRfrpqUW5QGMSi5IzEwEHk0MQxwAAAA==[0mGerman Garcia
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/test-sum-node
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/germanmgarcia/curso_basico_jenkins_platzi.git
+ > git init /var/jenkins_home/workspace/test-sum-node # timeout=10
+Fetching upstream changes from https://github.com/germanmgarcia/curso_basico_jenkins_platzi.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+ > git fetch --tags --force --progress -- https://github.com/germanmgarcia/curso_basico_jenkins_platzi.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/germanmgarcia/curso_basico_jenkins_platzi.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+Seen branch in repository origin/main
+Seen 1 remote branch
+ > git show-ref --tags -d # timeout=10
+Checking out Revision c4dbe5ca38440471f272db09fd4a5fe8d86791ca (origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f c4dbe5ca38440471f272db09fd4a5fe8d86791ca # timeout=10
+Commit message: "first commit"
+First time build. Skipping changelog.
+[test-sum-node] $ /bin/sh -xe /tmp/jenkins4721205019882610340.sh
++ cd jenkins-test
+/tmp/jenkins4721205019882610340.sh: 2: cd: can't cd to jenkins-test
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
