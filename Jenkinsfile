@@ -6,7 +6,7 @@ pipeline {
   }
 
   environment {
-    ARTIFACT_ID = "germanmgarcia/webapp:${env.BUILD_NUMBER}"
+    ARTIFACT_ID = "germanmgarcia/webapp:1"
   }
 
   stages {
