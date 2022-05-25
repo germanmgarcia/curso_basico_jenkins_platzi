@@ -1,7 +1,7 @@
 pipeline {
   agent any
 
-  options {
+  option {
     timeout(time: 2, unit: 'MINUTES')
   }
 
