@@ -73,7 +73,7 @@ war/yarn-error.log
 
 # Ignore all JENKINS_HOME except jobs directory, root xml config, and
 # .gitignore file.
-/*
+!/conf/jenkins_home
 !/jobs
 !/.gitignore
 !/*.xml
