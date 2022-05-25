@@ -6,15 +6,15 @@ pipeline {
   }
 
   environment {
-    ARTIFACT_ID = "germanmgarcia/webapp:1"
+    ARTIFACT_ID = "germanmgarcia/webapp:${env.BUILD_NUMBER}"
   }
 
   stages {
     stage('Build') {
       steps {
         script {
-          dir("webapp") {
-            dockerImage = docker.build "germanmgarcia/webapp:1"
+          dir("") {
+            dockerImage = docker.build "${env.ARTIFACT_ID}"
           }
         }
       }
